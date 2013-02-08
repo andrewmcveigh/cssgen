@@ -1,3 +1,5 @@
+This is a fork of cssgen that removes support for Clojure 1.2, and adds a sass-compiler that works on plain, valid sass files.
+
 h1. cssgen
 
 "!https://secure.travis-ci.org/paraseba/cssgen.png!":http://travis-ci.org/paraseba/cssgen
