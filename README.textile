@@ -2,7 +2,7 @@ This is a fork of cssgen that removes support for Clojure 1.2, and adds a sass-c
 
 h1. cssgen
 
-"!https://secure.travis-ci.org/paraseba/cssgen.png!":http://travis-ci.org/paraseba/cssgen
+<!-- "!https://secure.travis-ci.org/paraseba/cssgen.png!":http://travis-ci.org/paraseba/cssgen -->
 
 A *clojure* library to generate *CSS* code using an embedded domain-specific language (EDSL). In plain words: generate CSS files
 by writing clojure code.
