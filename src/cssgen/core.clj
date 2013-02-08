@@ -1,4 +1,4 @@
-(ns cssgen
+(ns cssgen.core
   (:require [clojure.string :as s]
             [clojure.java.io :as io])
   (:use [cssgen.types :only (repr)]))

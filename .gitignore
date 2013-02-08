@@ -6,3 +6,5 @@
 /multi-lib
 /.lein-failures
 /.lein-deps-sum
+.lein-repl-history
+target/

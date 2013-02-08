@@ -1,0 +1,107 @@
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+  
+  Licensed under GPL and MIT.
+
+@import 'compass/utilities/general/reset'
+
+=round-corners($amount, $tt)
+  border-radius: $amount
+  -moz-border-radius: $amount
+  -webkit-border-radius: $amount
+  div
+    :font
+      :size 1.0em
+    border-radius: $amount
+    h1
+      margin: 0
+      border-radius: $tt
+
+body
+  :font
+    :family Tahoma, Arial, Sans-Serif
+    :size 10pt
+  margin: 0
+  padding: 0
+
+ul
+  list-style: none
+  padding: 0
+  li
+    +round-corners(10px, 20px)
+    //:border
+      :bottom solid 1px #666666
+    :padding
+      :bottom 15px
+      :left 5px
+      :right 5px
+      :top 15px
+    overflow: hidden
+    position: relative
+    //width: 496px
+    img.button_background
+      float: left
+    img.client_logo
+      left: 17px
+      position: absolute
+      top: 26px
+    img.button_sheen
+      left: 13px
+      position: absolute
+      top: 22px
+    a.admin-link
+      position: absolute
+      right: 20px
+    dl
+      left: 115px
+      top: 5px
+      dt
+        color: #224877
+        :font
+          :weight bold
+        :margin
+          :bottom 4px
+          :top 5px
+      dd
+        :margin
+          :bottom 4px
+        dl
+          height: 90px
+          left: 0px
+          position: relative
+          top: 0px
+          dt
+            color: #000000
+            :font
+              :weight normal
+            float: left
+            :margin
+              :top 0px
+            width: 120px
+        a
+          position: absolute
+          right: 20px
+          top: 10px
+        p
+          :font
+            :size 8pt
+          :margin
+            :left 5px
+          //left: 310px
+          //position: absolute
+          //top: 15px
+  li.shaded
+    background-color: #E5E5F0
+  li.pagination
+    border: none
+    p
+      :margin
+        :top 50px
+      text-align: center
+div.no_margin
+  :margin
+    :top 0px
+    :left 0px
+a.pagination
+  margin: 10px 20px 40px 20px
